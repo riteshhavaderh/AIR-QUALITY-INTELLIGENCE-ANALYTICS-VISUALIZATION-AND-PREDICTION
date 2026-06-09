@@ -10,13 +10,13 @@ import joblib
 # LOAD SAVED FILES
 # =========================================================
 
-model = joblib.load('aqi_model.pkl')
+model = joblib.load('Models/aqi_model.pkl')
 
-ohe = joblib.load('city_encoder.pkl')
+ohe = joblib.load('Models/city_encoder.pkl')
 
-scaler = joblib.load('scaler.pkl')
+scaler = joblib.load('Models/scaler.pkl')
 
-model_columns = joblib.load('model_columns.pkl')
+model_columns = joblib.load('Models/model_columns.pkl')
 
 # =========================================================
 # TITLE
